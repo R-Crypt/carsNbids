@@ -7,7 +7,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 
 export const metadata: Metadata = {
   title: "Past results",
-  description: "Every GaadiBids sale, publicly recorded. Use real auction prices to value enthusiast cars in India.",
+  description: "Every AutoBid sale, publicly recorded. Use real auction prices to value enthusiast cars in India.",
 };
 
 export default function ResultsPage() {

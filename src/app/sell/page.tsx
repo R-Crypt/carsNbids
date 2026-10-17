@@ -4,7 +4,7 @@ import { SellForm } from "@/components/sell-form";
 
 export const metadata: Metadata = {
   title: "Sell your car",
-  description: "List your enthusiast car on GaadiBids for free. Inspection, photography and RTO transfer support included.",
+  description: "List your enthusiast car on AutoBid for free. Inspection, photography and RTO transfer support included.",
 };
 
 const perks = [
@@ -19,7 +19,7 @@ export default function SellPage() {
       <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
         <div className="space-y-8 lg:sticky lg:top-24 lg:self-start">
           <div className="space-y-3">
-            <span className="text-sm font-semibold tracking-wider text-primary uppercase">Sell on GaadiBids</span>
+            <span className="text-sm font-semibold tracking-wider text-primary uppercase">Sell on AutoBid</span>
             <h1 className="text-4xl leading-[1.05] font-bold sm:text-5xl">Your car deserves bidders who get it.</h1>
             <p className="text-lg text-muted-foreground">
               Tell us about your car. If it&apos;s a fit, our team will schedule an inspection and professional shoot in your city within 72 hours.

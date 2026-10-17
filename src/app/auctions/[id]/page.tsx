@@ -36,7 +36,7 @@ export async function generateMetadata(props: PageProps<"/auctions/[id]">): Prom
   const { id } = await props.params;
   const a = getAuction(id);
   if (!a) return { title: "Auction not found" };
-  return { title: a.title, description: `${a.subtitle}. Bid live on GaadiBids.` };
+  return { title: a.title, description: `${a.subtitle}. Bid live on AutoBid.` };
 }
 
 export default async function AuctionPage(props: PageProps<"/auctions/[id]">) {
@@ -79,7 +79,7 @@ export default async function AuctionPage(props: PageProps<"/auctions/[id]">) {
         <div className="space-y-1.5">
           <div className="flex flex-wrap gap-2">
             {a.noReserve && <Badge variant="secondary" className="font-semibold">No Reserve</Badge>}
-            {a.inspected && <Badge className="bg-success text-success-foreground"><ShieldCheckIcon /> GaadiBids Inspected</Badge>}
+            {a.inspected && <Badge className="bg-success text-success-foreground"><ShieldCheckIcon /> AutoBid Inspected</Badge>}
             <Badge variant="outline"><MapPinIcon /> {a.city}, {a.rto}</Badge>
           </div>
           <h1 className="text-3xl font-bold sm:text-4xl">{a.title}</h1>
@@ -110,11 +110,11 @@ export default async function AuctionPage(props: PageProps<"/auctions/[id]">) {
           <section className="relative overflow-hidden rounded-2xl border bg-gradient-to-br from-accent/70 to-transparent p-6">
             <div className="flex items-center gap-3">
               <Avatar className="size-10 ring-2 ring-primary/30">
-                <AvatarFallback className="bg-primary font-bold text-primary-foreground">GB</AvatarFallback>
+                <AvatarFallback className="bg-primary font-bold text-primary-foreground">AB</AvatarFallback>
               </Avatar>
               <div>
                 <h2 className="font-heading text-xl font-bold">Our Take</h2>
-                <p className="text-xs text-muted-foreground">From the GaadiBids editorial team</p>
+                <p className="text-xs text-muted-foreground">From the AutoBid editorial team</p>
               </div>
             </div>
             <p className="mt-4 leading-relaxed">{a.ourTake}</p>
@@ -187,7 +187,7 @@ export default async function AuctionPage(props: PageProps<"/auctions/[id]">) {
             <Card className="border-success/40 bg-success/5">
               <CardContent className="space-y-3">
                 <div className="flex items-center gap-2 font-semibold"><ClipboardCheckIcon className="size-5 text-success" /> Inspection report</div>
-                <p className="text-sm text-muted-foreground">200-point inspection by an independent GaadiBids inspector, including OBD scan, paint-depth readings and a road test.</p>
+                <p className="text-sm text-muted-foreground">200-point inspection by an independent AutoBid inspector, including OBD scan, paint-depth readings and a road test.</p>
                 <div className="grid grid-cols-3 gap-2 text-center text-xs">
                   {[["Engine", "9.1"], ["Body", "8.4"], ["Interior", "8.8"]].map(([k, v]) => (
                     <div key={k} className="rounded-lg bg-background p-2">

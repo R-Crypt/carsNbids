@@ -1,10 +1,10 @@
-# GaadiBids 🇮🇳🔨
+# AutoBid 🇮🇳🔨
 
 > Enthusiast car auction platform built for the Indian market, inspired by Cars & Bids.
 
-GaadiBids brings transparent, week-long online auctions to India's growing modern classic and performance car community — with independent inspections, anti-sniping bid clocks, full RTO documentation & transfer workflows, and secure escrow settlement.
+AutoBid brings transparent, week-long online auctions to India's growing modern classic and performance car community — with independent inspections, anti-sniping bid clocks, full RTO documentation & transfer workflows, and secure escrow settlement.
 
-![GaadiBids Platform Preview](./public/cars/lancer_evo.jpg)
+![AutoBid Platform Preview](./public/cars/lancer_evo.jpg)
 
 ---
 

@@ -8,7 +8,7 @@ import { formatINR, buyerFee } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "How it works",
-  description: "How buying and selling on GaadiBids works — inspections, escrow, buyer's fee and RTO transfer.",
+  description: "How buying and selling on AutoBid works — inspections, escrow, buyer's fee and RTO transfer.",
 };
 
 const buy = [
@@ -30,7 +30,7 @@ export default function HowItWorks() {
   return (
     <div className="mx-auto max-w-5xl space-y-16 px-4 pt-10 sm:px-6">
       <div className="space-y-3 text-center">
-        <h1 className="text-4xl font-bold sm:text-5xl">How GaadiBids works</h1>
+        <h1 className="text-4xl font-bold sm:text-5xl">How AutoBid works</h1>
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground">Transparent, week-long auctions for cars enthusiasts actually care about — built around how cars change hands in India.</p>
       </div>
 

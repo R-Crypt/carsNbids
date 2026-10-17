@@ -108,7 +108,7 @@ export const auctions: Auction[] = [
       "Second owner since 2019; car has been garaged in Indiranagar throughout",
       "Factory Recaro front buckets with red stitching and Brembo front brakes",
       "Timing belt, water pump and clutch replaced at 44,800 km (2025)",
-      "GaadiBids 200-point inspection completed — report available below",
+      "AutoBid 200-point inspection completed — report available below",
       "Clean hypothecation status; NOC-ready for inter-state transfer",
     ],
     equipment: [

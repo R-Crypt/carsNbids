@@ -20,7 +20,7 @@ export default function Home() {
     <div className="mx-auto max-w-7xl space-y-14 px-4 pt-6 sm:px-6 sm:pt-8">
       <FeaturedHero />
 
-      <section aria-label="Why GaadiBids" className="grid gap-px overflow-hidden rounded-2xl border bg-border sm:grid-cols-2 lg:grid-cols-4">
+      <section aria-label="Why AutoBid" className="grid gap-px overflow-hidden rounded-2xl border bg-border sm:grid-cols-2 lg:grid-cols-4">
         {props.map((p) => (
           <div key={p.title} className="flex gap-3 bg-card p-5">
             <div className="grid size-10 shrink-0 place-items-center rounded-lg bg-accent text-accent-foreground">

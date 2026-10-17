@@ -34,7 +34,7 @@ export function SiteFooter() {
       </div>
       <Separator />
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-muted-foreground sm:flex-row sm:px-6">
-        <p>© 2026 GaadiBids Technologies Pvt. Ltd. · Demo build</p>
+        <p>© 2026 AutoBid Technologies Pvt. Ltd. · Demo build</p>
         <p>Made for petrolheads in 🇮🇳</p>
       </div>
     </footer>

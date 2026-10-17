@@ -22,8 +22,8 @@ const display = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   title: {
-    default: "GaadiBids — Enthusiast Car Auctions in India",
-    template: "%s · GaadiBids",
+    default: "AutoBid — Enthusiast Car Auctions in India",
+    template: "%s · AutoBid",
   },
   description:
     "India's auction marketplace for enthusiast cars. Bid on inspected, verified modern classics, performance cars and cult favourites — with RTO transfer and escrow handled for you.",
